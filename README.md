@@ -16,7 +16,7 @@ Conectar alguns clientes:
 Funções:
 
 * sender:
- - Responsável por enviar itens ao Zabbix via "Zabbix Sender"
+  - Responsável por enviar itens ao Zabbix via "Zabbix Sender"
 * create:
   - Responsável por criar o JSON para o LLD do Zabbix
 * discovery:
