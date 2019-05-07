@@ -13,15 +13,15 @@ Conectar alguns clientes:
   - ncat -v 127.0.0.1 12345
   
   
-Função:
+Funções:
 
-*sender
+* sender:
  - Responsável por enviar itens ao Zabbix via "Zabbix Sender"
-*create
+* create:
   - Responsável por criar o JSON para o LLD do Zabbix
-*discovery
+* discovery:
   - Responsável por ler o JSON para popular o Zabbix
-*total [PORTA]
+* total [PORTA]:
   - Busca o TOTAL de uma porta especifica, utilizado para coleta automática dos itens
   
  
