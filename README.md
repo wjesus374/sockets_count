@@ -15,13 +15,13 @@ Conectar alguns clientes:
   
 Função:
 
-* sender
+*sender
  - Responsável por enviar itens ao Zabbix via "Zabbix Sender"
-* create
+*create
   - Responsável por criar o JSON para o LLD do Zabbix
-* discovery
+*discovery
   - Responsável por ler o JSON para popular o Zabbix
-* total [PORTA]
+*total [PORTA]
   - Busca o TOTAL de uma porta especifica, utilizado para coleta automática dos itens
   
  
