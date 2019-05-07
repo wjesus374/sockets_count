@@ -1,7 +1,7 @@
 # Python Script - Socket Count
 
-Dependência: [psutils]
- - pip install psutils
+Dependência: [psutil]
+ - pip install psutil
  
 Integrado com o projeto py-zabbix para a função sender (obrigado ao projeto pelo código).
 
