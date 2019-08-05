@@ -26,3 +26,12 @@ Funções:
   
  
 
+# Getsocket
+
+mkdir /opt/getsocket
+
+* vim /etc/systemd/system/getsockets.service
+* systemctl daemon-reload
+* systemctl enable getsockets
+* systemctl start getsockets
+* systemctl status getsockets
