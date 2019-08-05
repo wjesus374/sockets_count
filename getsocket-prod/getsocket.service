@@ -1,0 +1,12 @@
+[Unit]
+Description=Contagem de envio de socket ao Zabbix
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/getsocket
+ExecStart=/opt/getsocket/getsocket.py
+
+[Install]
+WantedBy=multi-user.target

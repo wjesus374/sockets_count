@@ -1,0 +1,39 @@
+[
+{"zabbix": [
+	{ "sendtozabbix": "yes", "zabbixserver": "192.168.227.220", "zabbixport": "10051"},
+	{ "sendtozabbix": "yes", "zabbixserver": "192.168.227.245", "zabbixport": "10051"}
+	]},
+{"filterports":"52*|53*|54*"},
+
+{"filterdata": [
+	{"cliente": "BANRISUL", "porta": 52069, "zabbix_item": "banrisul.x25.52069.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 52071, "zabbix_item": "banrisul.x25.52071.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 52073, "zabbix_item": "banrisul.x25.52073.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 52075, "zabbix_item": "banrisul.x25.52075.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 52077, "zabbix_item": "banrisul.x25.52077.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 52081, "zabbix_item": "banrisul.x25.52081.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 53069, "zabbix_item": "banrisul.x25.53069.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 53071, "zabbix_item": "banrisul.x25.53071.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 53073, "zabbix_item": "banrisul.x25.53073.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 53075, "zabbix_item": "banrisul.x25.53075.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 53077, "zabbix_item": "banrisul.x25.53077.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 53081, "zabbix_item": "banrisul.x25.53081.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54069, "zabbix_item": "banrisul.x25.54069.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54071, "zabbix_item": "banrisul.x25.54071.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54073, "zabbix_item": "banrisul.x25.54073.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54075, "zabbix_item": "banrisul.x25.54075.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54077, "zabbix_item": "banrisul.x25.54077.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54081, "zabbix_item": "banrisul.x25.54081.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54083, "zabbix_item": "banrisul.x25.54083.sockets.alog"},
+	{"cliente": "BANRISUL", "porta": 54096, "zabbix_item": "banrisul.x25.54096.alog.sockets"},
+	{"cliente": "BANRISUL", "porta": 54169, "zabbix_item": "banrisul.x25.54169.sockets.alog"},
+        {"cliente": "SAFRA", "porta": 52210, "zabbix_item": "safra.x25.52210.sockets.alog"},
+        {"cliente": "SAFRA", "porta": 51290, "zabbix_item": "safra.x25.51290.sockets.alog"},
+        {"cliente": "FIRSTDATA", "porta": 51222, "zabbix_item": "firstdata.x25.51222.sockets.eqx"},
+	{"cliente": "BANRISUL", "multi_porta": [54100,54101,54102,54103,54104,54105,54106,54107,54108,54109,54110,54111,54112,54113], "zabbix_item": "banrisul.x25.AMERICANAS.sockets.alog"},
+	{"cliente": "BANRISUL", "multi_porta": [54114,54115,54116,54117,54118,54119], "zabbix_item": "banrisul.x25.AUTTAR.sockets.alog"},
+	{"cliente": "BANRISUL", "multi_porta": [54120,54121,54122,54123], "zabbix_item": "banrisul.x25.CENTAURO.sockets.alog"},
+	{"cliente": "BANRISUL", "multi_porta": [54124,54125,54126,54127,54128,54129], "zabbix_item": "banrisul.x25.LINX.sockets.alog"},
+	{"cliente": "BANRISUL", "multi_porta": [54130,54131,54132,54133,54134,54135,54136,54137], "zabbix_item": "banrisul.x25.LUIZA.sockets.alog"}
+]}
+]
